@@ -1,0 +1,41 @@
+{
+  "name": "tipcalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose ./.ignore/test.js",
+    "test:index-1": "jest --verbose testNamePattern=\"Bill variable is defined\" ./.ignore/test.js",
+    "test:index-2": "jest --verbose --testNamePattern=\"Bill variable holds a number\" ./test.js",
+    "test:index-3": "jest --verbose --testNamePattern=\"calculateTip function exists\" ./test.js",
+    "test:index-4": "jest --verbose --testNamePattern=\"calculateTip correctly calculates 20% tip\" ./test.js",
+    "test:index-5": "jest --verbose --testNamePattern=\"calculateTip returns a number\" ./test.js",
+    "test:index-6": "jest --verbose --testNamePattern=\"getBillTotal function exists\" ./test.js",
+    "test:index-7": "jest --verbose --testNamePattern=\"getBillTotal correctly calculates total bill including tip\" ./test.js",
+    "test:index-8": "jest --verbose --testNamePattern=\"getBillTotal returns a number\" ./test.js"
+  },
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stiegler-EdTech-CTAC/tip-calculator-assignment"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stiegler-EdTech-CTAC/tip-calculator-assignment/issues"
+  },
+  "homepage": "https://github.com/Stiegler-EdTech-CTAC/tip-calculator-assignment#readme",
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "jsdom": "^21.1.0",
+    "@testing-library/dom": "^7.2.1",
+    "@testing-library/jest-dom": "^5.5.0",
+    "jest-environment-jsdom": "^29.4.3",
+    "serve": "^11.3.0"
+  },
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

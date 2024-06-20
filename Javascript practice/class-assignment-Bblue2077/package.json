@@ -1,0 +1,28 @@
+{
+  "name": "classassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose ./.ignore/test.js",
+    "test:index-1": "jest --verbose --testNamePattern=\"job1 getName method\" ./test.js",
+    "test:index-2": "jest --verbose --testNamePattern=\"job1 getFieldAndIndustry method\" ./test.js",
+    "test:index-3": "jest --verbose --testNamePattern=\"job2 getName method\" ./.test.js",
+    "test:index-4": "jest --verbose --testNamePattern=\"job2 getFieldAndIndustry method\" ./test.js",
+    "test:index-5": "jest --verbose --testNamePattern=\"job3 getName method\" ./test.js",
+    "test:index-6": "jest --verbose --testNamePattern=\"job3 getFieldAndIndustry method\" ./test.js",
+    "test:index-7": "jest --verbose --testNamePattern=\"extended class\" ./test.js"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/dom": "^10.1.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.1.0",
+    "ser": "^0.1.2"
+  }
+}
